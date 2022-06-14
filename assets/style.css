@@ -1,3 +1,48 @@
 body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex{
+    height: 100vh;   
+    display: block;
+    position: fixed;
+
+}
+
+.cover-art{
+    position: relative;
+    left: +450px;
+    bottom: -50px;
+    width: 350px;
+    height: 600px;
+    background-color: black;
     
+   
+}
+
+.comments{
+    position: relative;
+    display: block;
+    right: -850px;
+    bottom: -50px;
+    background-color: white;
+    height: 600px;
+    width: 450px;
+
+
+}
+
+.players{
+    position: relative;
+    
+    background-color: black;
+    width: 80%;
+    height: 400px;
+    bottom: -750px;
+    left: -150px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
 }
